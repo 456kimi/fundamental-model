@@ -1,0 +1,38 @@
+# ============ 复现实验的数据目录（体积大，不入库）============
+repro/data_ext/
+repro/data_mkt/
+repro/data_oos/
+repro/factors/
+repro/out/
+repro/out_v2/
+tools/_aux/
+*.parquet
+*.pkl
+*.h5
+*.db
+*.sqlite
+
+# ============ 论文 PDF（版权原因不入库，保留抽取的文本）============
+refs/papers/*.pdf
+
+# ============ 运行日志 ============
+*.log
+
+# ============ 私有凭证（关键：真实 Tushare token 在此）============
+_secrets_local.py
+*_local.py
+.env
+.env.*
+
+# ============ Python 缓存 ============
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# ============ 编辑器 / 系统 ============
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
